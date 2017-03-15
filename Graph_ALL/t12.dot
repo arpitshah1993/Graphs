@@ -1,0 +1,24 @@
+strict graph {
+    node [fontname="Arial"];
+    s -- t[label= 10 ][color="blue"];
+    s -- y[label= 5 ][color="blue"];
+    s -- z[label= 7 ][color="blue"];
+    s;
+    t -- s[label= 10 ][color="blue"];
+    t -- x[label= 1 ][color="blue"];
+    t -- y[label= 2 ][color="blue"];
+    t;
+    y -- s[label= 5 ][color="blue"];
+    y -- t[label= 2 ][color="blue"];
+    y -- x[label= 9 ][color="blue"];
+    y -- z[label= 2 ][color="blue"];
+    y;
+    x -- t[label= 1 ][color="blue"];
+    x -- z[label= 4 ][color="blue"];
+    x -- y[label= 9 ][color="blue"];
+    x;
+    z -- x[label= 4 ][color="blue"];
+    z -- y[label= 2 ][color="blue"];
+    z -- s[label= 7 ][color="blue"];
+    z;
+}

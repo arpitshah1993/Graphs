@@ -1,0 +1,18 @@
+digraph BST {
+    node [fontname="Arial"];
+    s -> t[label= 10 ][color="red"];
+    s -> y[label= 5 ][color="red"];
+    s;
+    t -> x[label= 1 ][color="red"];
+    t -> y[label= 2 ][color="red"];
+    t;
+    y -> t[label= 3 ][color="red"];
+    y -> x[label= 9 ][color="red"];
+    y -> z[label= 2 ][color="red"];
+    y;
+    x -> z[label= 4 ][color="red"];
+    x;
+    z -> s[label= 7 ][color="red"];
+    z -> x[label= 6 ][color="red"];
+    z;
+}

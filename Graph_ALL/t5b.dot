@@ -1,0 +1,1 @@
+ strict graph { node[shape = ellipse]; 7 9 10 1 2 3 4 5 ;9--10;2--7;4--9;5--10;}

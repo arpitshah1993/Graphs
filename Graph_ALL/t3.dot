@@ -1,0 +1,1 @@
+ strict digraph { node[shape = ellipse]; s t x y z ;s->t[label = 0];s->y[label = 0];t->x[label = 1];t->y[label = 1];x->z[label = 2];y->t[label = 3];y->x[label = 3];y->z[label = 3];z->s[label = 4];z->x[label = 4];}
